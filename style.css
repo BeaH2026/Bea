@@ -10,7 +10,7 @@ p, li, a{
   font-style: normal;
 }
 title{
-	font-family: "Comic Relief", system-ui;
+		font-family: "Comic Relief", system-ui;
   	font-weight: 400;
   	font-style: normal;
 }
@@ -19,4 +19,29 @@ a:hover{
 }
 a{
 	color: white;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #ffb3bf;
+	text-align: center;
+}
+ul li {
+	float: left;
+	text-align: center;
+}
+
+ul li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+ul li a:hover {
+	color: #ffb3bf;
 }
